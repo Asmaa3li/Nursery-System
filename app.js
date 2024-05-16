@@ -6,8 +6,8 @@ const teacherRouter = require("./Routes/TeacherRoute");
 const childRouter = require("./Routes/ChildRoute");
 const classRouter = require("./Routes/ClassRoute");
 
-const loginRouter = require("./Routes/authentication");
-const authMW = require("./MiddleWares/authenticationMW");
+const loginRouter = require("./Routes/AuthenticationRoute");
+const authMW = require("./Middlewares/authenticationMW");
 
 // Initializing the server
 const server = express();

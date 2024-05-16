@@ -1,4 +1,4 @@
-const classSchema = require("./../Model/classModel");
+const classSchema = require("../Models/ClassModel");
 
 // Get All Classes 
 exports.getAllClasses = (request, response, next) => {

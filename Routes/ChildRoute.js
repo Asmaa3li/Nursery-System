@@ -1,6 +1,6 @@
 const express = require("express");
-const controller = require("./../Controller/childController");
-const { isAdmin, isChild } = require("./../MiddleWares/authenticationMW.js");
+const controller = require("./../Controllers/ChildController");
+const { isAdmin, isChild } = require("./../Middlewares/authenticationMW.js");
 const router = express.Router();
 
 router

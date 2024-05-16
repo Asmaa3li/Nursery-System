@@ -1,5 +1,5 @@
-const teacherSchema = require("./../Model/teacherModel");
-const classSchema = require("./../Model/classModel");
+const teacherSchema = require("./../Models/TeacherModel");
+const classSchema = require("./../Models/ClassModel");
 
 // Get All Teachers
 exports.getAllTeachers = (request, response, next) => {

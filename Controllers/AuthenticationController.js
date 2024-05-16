@@ -1,10 +1,10 @@
-const teacherSchema = require("./../Model/teacherModel");
-const childSchema = require("./../Model/childModel");
+const teacherSchema = require("./../Models/TeacherModel");
+const childSchema = require("./../Models/ChildModel");
 const jwt = require("jsonwebtoken");
 
 exports.login = (req, res, next) => {
   if (req.body.email == "asmaa@gmail" && req.body.password == "123") {
-    let token = jwt.sign({ _id: 1, role: "admin" }, "nurseryApp", {
+    let token = jwt.sign({ _id: 1, role: "admin" }, "nurserysystem", {
         expiresIn: "1h",
     });
     res.status(200).json({ data: "success", token });

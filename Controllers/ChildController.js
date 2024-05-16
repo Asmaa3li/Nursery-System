@@ -1,4 +1,4 @@
-const childSchema = require("./../Model/childModel");
+const childSchema = require("./../Models/ChildModel");
 
 // Get All Children
 exports.getAllChildren = (request, response, next) => {
