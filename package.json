@@ -1,0 +1,21 @@
+{
+  "name": "nursery-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "startDev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.5",
+    "mongoose-plugin-autoinc": "^1.1.9"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  },
+  "description": ""
+}
